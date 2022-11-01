@@ -1,24 +1,30 @@
-#wrap{width: 100%; height: 100%; padding: 180px;}
+*{
+  box-sizing: border-box;
+  border: 0px;
+  margin: 0px;
+}
+
+#wrap{width: 100%; height: 100vh; background-color: rgb(30, 30, 30);}
 #wrap > h1{font-size: 0;}
 
 header .logo_box{position: absolute; right: 35px; top: 50px;}
 header .logo_box img{width: 130px;}
 
-#wrap header{width: 190px; height: 100%; position: fixed; right: 0px; top: 0px; background-color: #000;}
-#wrap header nav{width: 100%; height: 100%;}
-#wrap header nav ul{width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center;}
+#wrap header{width: 180px; height: 100vh; position: fixed; right: 0px; top: 0px; z-index: 11; background-color: #000;}
+#wrap header nav{width: 100%; height: 100vh;}
+#wrap header nav ul{width: 100%; height: 100vh; display: flex; flex-direction: column; justify-content: center;}
 #wrap header nav ul li{margin: 0px 0px 10px 0px; padding-left: 5px; position: relative;}
 #wrap header nav ul li a{font-size: 16px; color: #fff; font-weight: 600; line-height: 30px; text-decoration-line: none;}
 #wrap header nav ul li::after{content: ""; display: block; width: 5px; height: 5px; border-radius: 50%; background-color: #fff; position: absolute; left: 0px; top: 13px;}
 #wrap header nav ul li:hover a, #wrap header nav ul li.on a{color: rgb(254, 170, 244);}
 #wrap header nav ul li:hover::after, #wrap header nav ul li.on::after{background: rgb(254, 170, 244);}
 
-#container{width: 100%; height: 100%; position: relative; max-width: 1200px; margin: 0 auto;}
-#container .content{width: 25%; height: 100%; position: absolute;}
-#container #menu1{left: 0%; background: url(./image/content_bg1.png) repeat;}
-#container #menu2{left: 25%; background: url(./image/content_bg2.png) repeat;}
-#container #menu3{left: 50%; background: url(./image/content_bg3.png) repeat;}
-#container #menu4{left: 75%; background: url(./image/content_bg4.png) repeat;}
+#container{width: calc(100% - 180px); height: 100vh; position: relative; margin:0 auto; max-width: 1200px;}
+#container .content{width: 20%; height: 100vh; position: absolute;}
+#container #menu1{left: 0%; background-color: rgb(60, 60, 60);}
+#container #menu2{left: 20%; background-color: rgb(60, 60, 60);}
+#container #menu3{left: 40%; background-color: rgb(60, 60, 60);}
+#container #menu4{left: 60%; background-color: rgb(60, 60, 60);}
 
 footer{width: 180px; position: fixed; right: 0px; bottom: 0px; padding: 0px 0px 30px 30px; font-size: 11px; color: #7e7e7e; z-index: 12;}
 footer address{padding: 0px 0px 10px 0px;}
