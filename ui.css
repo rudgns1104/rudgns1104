@@ -17,3 +17,7 @@ header .logo_box img{width: 130px;}
 
 footer{width: 180px; position: fixed; right: 0px; bottom: 0px; padding: 0px 0px 30px 30px; font-size: 11px; color: #7e7e7e; z-index: 12;}
 footer address{padding: 0px 0px 10px 0px;}
+footer > a{display: block; width: 20px; height: 20px; position: absolute; top: -31px;}
+footer > a.youtube{background:url(../image/youtube_simbol_2.png) no-repeat; right: 18px;}
+footer > a.cafe{background:url(../image/cafe_hover.png) no-repeat; right: 48px;}
+footer > a.wiki{background:url(../image/namuwiki_simbol.png) no-repeat; right: 80px;}
