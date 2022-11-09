@@ -4,27 +4,6 @@
   margin: 0px;
 }
 
-#wrap{width: 100%; height: 100vh; background-color: rgb(30, 30, 30);}
-#wrap > h1{font-size: 0;}
-
-
-
-header .logo_box{position: absolute; right: 35px; top: 50px;}
-header .logo_box img{width: 130px;}
-
-
-
-#wrap header{width: 180px; height: 100vh; position: fixed; right: 0px; top: 0px; z-index: 11; background-color: #000;}
-#wrap header nav{width: 100%; height: 100vh;}
-#wrap header nav ul{width: 100%; height: 100vh; display: flex; flex-direction: column; justify-content: center;}
-#wrap header nav ul li{margin: 0px 0px 10px 0px; padding-left: 5px; position: relative;}
-#wrap header nav ul li a{font-size: 16px; color: #fff; font-weight: 600; line-height: 30px; text-decoration-line: none;}
-#wrap header nav ul li::after{content: ""; display: block; width: 5px; height: 5px; border-radius: 50%; background-color: #fff; position: absolute; left: 0px; top: 13px;}
-#wrap header nav ul li:hover a, #wrap header nav ul li.on a{color: rgb(44, 206, 169);}
-#wrap header nav ul li:hover::after, #wrap header nav ul li.on::after{background: rgb(44, 206, 169);}
-
-
-
 #container{width: 100%; height: 100vh; position: relative; margin: 0 auto; max-width: 1200px;}
 #container .content{width: 20%; height: 100vh; position: absolute;}
 #container .content.this{width: 100%; left: 0 !important;}
@@ -56,12 +35,3 @@ header .logo_box img{width: 130px;}
 #container #menu3 .conbox::before{background: url(./image/Q&A_simbol.png) no-repeat; width: 230px; height: 230px; right: 15px; top: 200px; background-size: 100%;}
 #container #menu4 .conbox::before{background: url(./image/email_simbol.png) no-repeat; width: 200px; height: 170px; right: 5px; top: 200px; background-size: 100%;} 
 */
-
-
-
-footer{width: 180px; position: fixed; right: 0px; bottom: 0px; padding: 0px 0px 30px 30px; font-size: 11px; color: #7e7e7e; z-index: 12;}
-footer address{padding: 0px 0px 10px 0px;}
-footer > a{display: block; width: 20px; height: 20px; position: absolute; top: -31px;}
-footer > a.youtube{background:url(./image/youtube_simbol_2.png) no-repeat; right: 18px;}
-footer > a.cafe{background:url(./image/cafe_hover.png) no-repeat; right: 48px;}
-footer > a.wiki{background:url(./image/namuwiki_simbol.png) no-repeat; right: 80px;}
