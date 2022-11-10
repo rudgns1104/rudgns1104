@@ -23,10 +23,10 @@
 #container .content::before, #container .content::after{content: ""; display: block; position: absolute;}
 #container .content::before{width: 1px; height: 100vh; background-color: #000; left: 0; top: 0; z-index: 4;}
 #container .content::after{left: 30px; top: 180px; font-size: 25px; font-weight: 700; color: rgb(44, 206, 169);}
-#container #menu1::after{content: "그룹 소개";}
-#container #menu2::after{content: "음반 소개";}
-#container #menu3::after{content: "자주하는 질문";}
-#container #menu4::after{content: "문의";}
+#container #menu1::after{content: "왁타버스";}
+#container #menu2::after{content: "고정 멤버";}
+#container #menu3::after{content: "이세계 아이돌";}
+#container #menu4::after{content: "음반 소개";}
 #container .content .conbox::before{content: ""; display: block; position: absolute;}
 /* 해당 메뉴당 이미지 삽입 예시 */
 /* 
